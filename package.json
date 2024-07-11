@@ -1,11 +1,11 @@
 {
   "name": "lesson11-task2-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "forever index.js",
+    "start": "forever server.js",
     "prestart": "npm install",
-    "watch": "forever -w index.js"
+    "watch": "forever -w server.js"
   },
   "repository": {
     "type": "git",
