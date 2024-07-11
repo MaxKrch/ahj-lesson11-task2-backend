@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "forever ./app/index.js",
+    "start": "forever app/index.js",
     "prestart": "npm install",
-    "watch": "forever -w ./app/index.js"
+    "watch": "forever -w app/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,11 +15,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@faker-js/faker": "^8.4.1",
     "@koa/cors": "^5.0.0",
-    "faker": "^6.6.6",
     "forever": "^4.0.3",
     "koa": "^2.15.3",
     "koa-body": "^6.0.1",
+    "koa-combine-routers": "^4.0.2",
     "koa-router": "^12.0.1"
   }
 }
