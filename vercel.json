@@ -7,6 +7,9 @@
     }
   ],
   "rewrites": [
-    { "source": "/posts/:sort", "destination": "/app/routes/index.js" }
+    { 
+      "source": "/(.*)", 
+      "destination": "/app/routes/index.js"
+    }
   ]
 }
