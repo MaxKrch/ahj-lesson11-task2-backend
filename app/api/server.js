@@ -2,7 +2,7 @@ const Koa = require('koa');
 const cors = require('@koa/cors');
 const { koaBody } = require('koa-body');
 
-const router = require('./routes/index.js');
+const router = require('../routes/index.js');
 
 const server = new Koa();
 

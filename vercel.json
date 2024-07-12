@@ -1,14 +1,14 @@
 {
   "version": 2,
   "functions": {
-    "app/server.js": {
+    "app/api/server.js": {
       "maxDuration": 30
     }
   },
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "app/server.js"
+      "dest": "app/api/server.js"
     }
   ]
 }
