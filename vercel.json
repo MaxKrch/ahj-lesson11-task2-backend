@@ -1,7 +1,9 @@
 {
   "version": 2,
   "functions": {
-    "app/server.js": {}
+    "app/server.js": {
+      "maxDuration": 30
+    }
   },
   "routes": [
     {
