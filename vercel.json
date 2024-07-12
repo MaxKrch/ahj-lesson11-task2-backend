@@ -1,8 +1,5 @@
 {
   "version": 2,
-  "functions": {
-    "app/server.js"
-  },
   "routes": [
     {
       "src": "/(.*)",
